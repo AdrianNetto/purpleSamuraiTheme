@@ -1,0 +1,27 @@
+{
+  "name": "theme",
+  "displayName": "g.a-theme",
+  "description": "none",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "purple",
+    "theme",
+    "dark",
+    "samurai"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nettoDev",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ga-color-theme.json"
+      }
+    ]
+  }
+}
