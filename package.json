@@ -9,7 +9,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "icon.png",
+  "icon": "./images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/AdrianNetto/purpleSamuraiTheme"
