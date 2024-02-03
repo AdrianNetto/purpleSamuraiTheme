@@ -1,7 +1,7 @@
 {
-  "name": "theme",
-  "displayName": "g.a-theme",
-  "description": "none",
+  "name": "nettoDev",
+  "displayName": "Purple Samurai",
+  "description": "Dark and purple theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
@@ -9,18 +9,24 @@
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdrianNetto/purpleSamuraiTheme"
+  },
   "keywords": [
     "purple",
     "theme",
     "dark",
     "samurai"
   ],
+  "publisher": "adrianfenrir",
   "contributes": {
     "themes": [
       {
-        "label": "nettoDev",
+        "label": "Purple Samurai",
         "uiTheme": "vs-dark",
-        "path": "./themes/ga-color-theme.json"
+        "path": "./themes/purple-samurai-theme.json"
       }
     ]
   }
